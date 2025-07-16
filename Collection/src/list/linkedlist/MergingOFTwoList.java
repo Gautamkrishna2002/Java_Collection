@@ -32,12 +32,12 @@ public class MergingOFTwoList {
 		System.out.println(li2);
 		List<Integer> li3 = new LinkedList<Integer>();
 		for(Integer num : li1) {
-			if(!li3.contains(num)) {
+			if(li3.contains(num) == false) {
 				li3.add(num);
 			}
 		}
 		for(Integer num2 : li2) {
-			if(!li3.contains(num2)) {
+			if(li3.contains(num2) == false) {
 				li3.add(num2);
 			}
 		}
