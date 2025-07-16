@@ -4,7 +4,7 @@ package list.linkedlist;
 //INPUT: l1 = [10, 30, 20, 40, 50, 10]
 //	   l2 = [20, 50, 60, 80, 20, 10]
 //			 
-//OPUTPUT: l3 = [10, 30, 20, 40, 50, 60, 80]
+//OUTPUT: l3 = [10, 30, 20, 40, 50, 60, 80]
 
 import java.util.LinkedList;
 import java.util.List;
