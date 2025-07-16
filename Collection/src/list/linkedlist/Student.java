@@ -97,6 +97,8 @@ public class Student {
 		} while(temp2);
 		System.out.println("Thank You!!!!!");
 		
+		sc.close();
+		
 	}
 
 }
